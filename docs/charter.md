@@ -10,15 +10,24 @@ The one thing it must do to be worth finishing: <fill in Week 2>
 
 3. Capacity and constraints
 Constraint	                                                        My reality
-Hours available per week	
+
+Hours available per week	                                        18 hrs per week available for this project, so 3-5 hrs per week are extra fall-back
+
 Total hours budgeted	                                            240
-Weeks that are already broken (and where those hours move)	
-Machine (OS, RAM, disk)	
-Administrator rights on that machine?	
-Money I will spend on this project	
-Technologies I already know well	
-Technologies I am willing to learn (max two)	
-Hard external deadlines besides this course	
+
+Weeks that are already broken (and where those hours move)	        7, 8, 12, 14 These weeks are each only partly taken up so I will move hours to earlier/later in the week where necessary. I also cannot full answer what I will be doing during theose broken times so I may have more time than I believe. 
+
+Machine (OS, RAM, disk)	                                            Desktop: Windows 11, 32GB RAM, 1.5 TB disk | Laptop: Windows 11, 16GB RAM, 500GB disk
+
+Administrator rights on that machine?	                            Desktop: Yes | Laptop: Yes
+
+Money I will spend on this project	                                Current Plan: $20 per month of work on Capstone for access to Claude Code Pro
+
+Technologies I already know well	                                React, GitHub, Claude-Code, Python
+
+Technologies I am willing to learn (max two)	                    Full MERN Stack
+
+Hard external deadlines besides this course	                        Philosophy Senior Seminar Part 1 is this semester. Christian Apologetics Paper due 11/23. Machine Learning Project due in December.
 
 4. Definition of finished
 
