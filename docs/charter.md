@@ -1,4 +1,4 @@
-# Project Charter — <Luke Witte>
+# Project Charter — Luke Witte
 
 <!--
   Milestone 1 template. Copy this file into your repository as docs/charter.md,
@@ -13,7 +13,7 @@
   than a charter that has always been right.
 -->
 
-**Owner:** <Luke Witte> · **Course:** CSC 4950 Capstone · **Started:** <2026-08-26> · **Last revised:** <YYYY-MM-DD>
+**Owner:** Luke Witte · **Course:** CSC 4950 Capstone · **Started:** 2026-08-26 · **Last revised:** 2026-9-6
 
 ## 1. Purpose
 
@@ -65,12 +65,21 @@ The purpose of this Capstone is to link the two halves (Computer Science and Phi
      BAD:  "I won't over-engineer it."
      GOOD: "I will not build a mobile client. Web only, one browser target." -->
 
+1. I will not build an AI feature.
+2. I will not build a 3D game.
+3. I will not build a settings page.
+4. I will not build a VR application.
+5. I will not build an application for iOS, takes much more effort than Google Play Store.
+
+<!--
+**OLD NON-GOALS REVISED 9-3-2026
 1. I will not waste time on unecessary features until I have a minimum viable product.
 2. I will keep all usage of new software simple because it will save me time when learning it.
 3. I will learn at least 1 new software enough that I can then say I will use it somewhere else later.
 4. This application will only be focused on optimization for a desktop, not mobile.
 5. I will learn how to better setup and use a database in this application.
 6. I will focus on the bare functionality of this application before I worry about how it looks in user experience.
+-->
 
 ## 6. Risks to me finishing
 
