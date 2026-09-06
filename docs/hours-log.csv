@@ -3,4 +3,7 @@ date,start,end,hours,phase,hat,task,estimate_hours,blocked_hours,notes
 8-26-2026,19:30,22:30,3,Inception,project-manager,finished work in ai-usage.md; charter.md; and README.md for Milestone 1,2.5,0,Could have been shorter if I didn't do charter.md wrong the first time. 
 8-28-2026,13:00,14:30,1.5,Inception,project-owner,read ch. 2 of the textbook,0.75,0,it was just longer and denser than expected.
 8-31-2026,12:30,14:00,1.5,Inception,project-owner,brainstormed ideas for capstone and checked out possible APIs to make one of the ideas work,1.5,0,I had a difficult time coming up with genuine ideas that I would do.
-9-1-2029,10:15,END,HOURS,Inception,project-owner,
+9-1-2026,10:15,13:15,3,Inception,project-owner,worked on creating cards for week 2 and almost finished candidate a, 1.25,0.25,The candidate file requirments took longer than expected; I stopped work once to research what walking skeleton and CI were.
+9-2-2026,18:00,19:30,1.5,Inception,project-owner,researched technology and architecture to use for candidate a, 1.5,0,I looked at Next.js for framework and Vercel for hosting.
+9-3-2026,10:00,12:30,2.5,Inception,project-owner,finished fleshing out candidate a and started b; also started fixing non-goals,2.5,0.5,I have been having a lot of trouble fleshing out ideas that are worth a project but are possible to finish.
+9-6-2026,14:00,17:75,3.75,Inception,project-owner,finished fleshing out candidate b and started c; also finished fixing non-goals, 2.0,0,The candidate file requirements took longer than expected.
