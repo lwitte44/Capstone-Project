@@ -7,3 +7,4 @@ date,start,end,hours,phase,hat,task,estimate_hours,blocked_hours,notes
 9-2-2026,18:00,19:30,1.5,Inception,project-owner,researched technology and architecture to use for candidate a, 1.5,0,I looked at Next.js for framework and Vercel for hosting.
 9-3-2026,10:00,12:30,2.5,Inception,project-owner,finished fleshing out candidate a and started b; also started fixing non-goals,2.5,0.5,I have been having a lot of trouble fleshing out ideas that are worth a project but are possible to finish.
 9-6-2026,14:00,17:75,3.75,Inception,project-owner,finished fleshing out candidate b and started c; also finished fixing non-goals, 2.0,0,The candidate file requirements took longer than expected.
+9-6-2026,18:45,20:45,1.75,Inception,project-owner,finished chosen project scope memo,2.0,0.25,I had to spend some time thinking through the non-scope requirement.
