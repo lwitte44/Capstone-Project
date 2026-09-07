@@ -18,16 +18,17 @@ These are all typical sources for finding philosophical essays. JSTOR and Stanfo
 
 ## 3. Candidate scope (Must features only)
 
-| #   | Feature (one vertical slice each)                   | Hours |
-| --- | --------------------------------------------------- | ----: |
-| 1   | Currently reading essay page                        |     8 |
-| 2   | Page for viewing all uploaded Essays                |     9 |
-| 3   | Available Essays Table prefab for each page         |     9 |
-| 4   | Landing page with general info and search bar       |     8 |
-| 5   | Function for pulling/Parsing from .md essays folder |     8 |
-|     | Walking skeleton + CI                               |    10 |
-|     | Deployment + clean-machine test                     |     3 |
-|     | **Construction total**                              |    55 |
+| #   | Feature (one vertical slice each)                     | Hours |
+| --- | ----------------------------------------------------- | ----: |
+| 1   | Currently Open Essay Page                             |     8 |
+| 2   | Page for viewing all uploaded Essays                  |     9 |
+| 3   | Search Essay by Keyword                               |     9 |
+| 4   | Landing page with Featured Essay and File Tree (Left) |    10 |
+| 5   | Function for pulling/Parsing from .md essays folder   |     8 |
+| 6   | Function for getting philosopher information from API |     8 |
+|     | Walking skeleton + CI                                 |    12 |
+|     | Deployment + clean-machine test                       |     3 |
+|     | **Construction total**                                |    67 |
 
 Budget: plan on **60 hours**, hard ceiling **75**. Above 75 you are borrowing from
 testing and documentation, which are graded.
@@ -48,7 +49,7 @@ testing and documentation, which are graded.
 | Gate                                             | Verdict     | Evidence (dated)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | ------------------------------------------------ | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **Build** — novelty load ≤ 2                     | pass        | Next.js(New) Installed 9-2-2026                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| **Get** — every dependency exercised for real    | pass / fail | none                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Get** — every dependency exercised for real    | pass        | Get request URL: https://philosophersapi.com/api/philosophers/name/Marcus+Aurelius returned JSON correctly. 9-6-2026                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | **Ship** — a named deployment target, terms read | pass        | Vercel Free Tier Account Created 9-2-2026                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | **Show** — a stranger sees it work in 10 minutes | pass / fail | 1: Find Project URL in GitHub README file 2. Paste URL into a search engine 3. View Landing Page 4. Use the navigation tree on the left side or search bar to see different essays 5. Click a link or paste keywords/title to navigate to a selected paper 6. Find paper title and information at the top of each page 7. Read paper by scrolling to the bottom of the page 8. Navigate to new paper through the tree on the left side 9. Use Home Button to return to the landing page 10. Check again later for new essays posted by developer |
 

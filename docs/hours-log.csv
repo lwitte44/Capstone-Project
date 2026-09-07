@@ -8,3 +8,5 @@ date,start,end,hours,phase,hat,task,estimate_hours,blocked_hours,notes
 9-3-2026,10:00,12:30,2.5,Inception,project-owner,finished fleshing out candidate a and started b; also started fixing non-goals,2.5,0.5,I have been having a lot of trouble fleshing out ideas that are worth a project but are possible to finish.
 9-6-2026,14:00,17:75,3.75,Inception,project-owner,finished fleshing out candidate b and started c; also finished fixing non-goals, 2.0,0,The candidate file requirements took longer than expected.
 9-6-2026,18:45,20:45,1.75,Inception,project-owner,finished chosen project scope memo,2.0,0.25,I had to spend some time thinking through the non-scope requirement.
+9-6-2026,21:00,21:30,0.5,Inception,project-owner,started the dependency verification table,0.5,0, had small time before evening service.
+9-6-2026,22:15,23:15,1,Inception,project-owner,finished the dependency verification table;cut-order; bottom-up hours; and cards for features,3.0,0, none of these tasks are as difficult as I planned for.

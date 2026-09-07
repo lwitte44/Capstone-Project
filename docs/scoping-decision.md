@@ -24,6 +24,7 @@ These are all typical sources for finding philosophical essays. JSTOR and Stanfo
 | 3   | Search Essay by Keyword                               |                                                                         9, this feature has slack, but can be cut if not enough time after week 10. |
 | 4   | Landing page with Featured Essay and File Tree (Left) |                                                                     10, This page is a must, but may be made easier if other must features are cut. |
 | 5   | Function for pulling/Parsing from .md essays folder   |                                                                          8, this one may not have slack, it is the bread and butter of the project. |
+| 6   | Function for getting philosopher information from API |                          8, this is the first feature to go, its hours do have extra built in though, it shouldnt be bad to parse the json returned |
 |     | Walking skeleton + CI                                 |                                                                            12, I have never done this before so 12 is my best estimate, cannot cut. |
 |     | Deployment + clean-machine test                       |                                                                    3, this should leave slack, but is unknown with never having done Vercel before. |
 |     | **Construction total**                                | 59, currently on the low end, but I think this leaves room for adaption if everything goes easier than expected, or extra work room if it goes bad. |
@@ -32,9 +33,6 @@ Plan: 60 hours. Hard ceiling: 75. My number: <N>. <One sentence saying whether t
 leaves slack, and what happens if it does not.>
 
 ## 4. Should features — built only if there is room
-
-<Each with its hour cost and the week it would be built. Say plainly which one is cut
-first when you fall behind.>
 
 **Ranked Most Likely to Build 1-... (Will drop lowest on list first)**
 | #| Should Feature |Cost| Week Planned for |
@@ -95,7 +93,46 @@ The hardest part will be writing a function to parse the markdown files, I have 
 | I am also working on my Philosophy Senior Seminar at the same time as Capstone. | Certain                                                                               | It takes extra time out of every week that could be spent on this project alone.  | I get to week 8 and I don't have much done in Senior Seminar. It would mean I need to put less time into Capstone. |
 | I have broken weeks in weeks 7, 12, 14                                          | Certain to have other events, uncertain how they will effect work hours until closer. | Work hours during the week that need to be spent on Capstone, especially Week 12. | I will get through the first half of each of those weeks with not enough done before the weekend.                  |
 
-**Scope-cut trigger.** If I am not 100% done with all previous milestones by Sunday,November 8th (day before week 12), I will cut all "should" features and then the essay search bar, all else is a must have or no website. Decided now, in advance, so I do not have to decide it while panicking.
+**Scope-cut trigger.** If I am not 100% done with all previous milestones by Sunday,November 8th (day before week 12), I will cut the philosophers information feature and then the essay search bar, all else is a must have or no website. Decided now, in advance, so I do not have to decide it while panicking.
+
+## Dependency-Verification Table (For All Candidates)
+
+| Dependency      | Candidate | Exercised                                                                         | Result                                    | Key?                                     | Rate Limit                                                                                     | Terms Read |
+| --------------- | --------- | --------------------------------------------------------------------------------- | ----------------------------------------- | ---------------------------------------- | ---------------------------------------------------------------------------------------------- | ---------: |
+| PokeWalletAPI   | B         | curl GET search Charizard                                                         | 200, returned every card named charizard  | Yes, key aquired from site in 15 minutes | 100/hr 1000/day                                                                                |   9-6-2026 |
+| MongoDB         | B         | used before, can open a new cluster                                               | created a new test cluster named Capstone | No, need account, I have one             | M0 Free Tier, 512 MB of storage                                                                |   9-6-2026 |
+| Vercel          | A,B       | I made a free tier account                                                        | it worked, I added my GitHub Repo         | no                                       | Free Deploy, 1 dev on team only                                                                |   9-6-2026 |
+| PhilosophersAPI | A         | Get request URL https://philosophersapi.com/api/philosophers/name/Marcus+Aurelius | returned JSON correctly                   | no                                       | none listed, website has almost no information except what the api returns or how to prompt it |   9-6-2026 |
+
+## Cut-Order
+
+1. Philosophers Information from API
+2. The search Bar
+3. The available essays file tree.
+
+I will know I need to begin to cut from these features if I reach milestone 8 and I do not have a fleshed out plan for how I will build the whole website and if I do not have all requirements from previous milestones done.
+
+## Bottom-Up Hour Estimate
+
+| #   | Feature (one vertical slice each)                     | Hours |
+| --- | ----------------------------------------------------- | ----: |
+| 1   | Currently Open Essay Page                             |     8 |
+| 2   | Page for viewing all uploaded Essays                  |     9 |
+| 3   | Search Essay by Keyword                               |     9 |
+| 4   | Landing page with Featured Essay and File Tree (Left) |    10 |
+| 5   | Function for pulling/Parsing from .md essays folder   |     8 |
+| 6   | Function for getting philosopher information from API |     8 |
+|     | Walking skeleton + CI                                 |    12 |
+|     | Deployment + clean-machine test                       |     3 |
+|     | **Construction total**                                |    67 |
+
+**240-Hour Scope Sizer Says...:**
+
+- INPUT: 5 features, 1 external integration, simple data complexity, 2 new technologies, and deployed where stranger can see it
+- Estimated Range: 129-267 hrs
+- Most Likely: 198 hrs
+- Weeklu Load, 16 Weeks: 12.4 h/wk
+- Most hours go into implementation (83)
 
 ---
 
