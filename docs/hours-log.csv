@@ -11,3 +11,7 @@ date,start,end,hours,phase,hat,task,estimate_hours,blocked_hours,notes
 9-6-2026,21:00,21:30,0.5,Inception,project-owner,started the dependency verification table,0.5,0, had small time before evening service.
 9-6-2026,22:15,23:15,1,Inception,project-owner,finished the dependency verification table;cut-order; bottom-up hours; and cards for features,3.0,0, none of these tasks are as difficult as I planned for.
 9-9-2026,19:30,22:30,3,Requirements,business-analyst,read the textbook chapter; created cards for milestone 3 work; practiced with APIs, 3,0, Will start actual requirement writing tomorrow.
+9-12-2026,6:00,8:00,2,Requirements,business-analyst,started writing and thinking about the requirements more,1,0,I was having trouble thinking of how to turn the features into requirements. 
+9-13-2026,13:00,15:00,2,Requirements,business-analyst,continued writing requirements,1.5,0.5,The requirements were more difficult to write than I expected.
+9-13-2026,15:30,18:00,2.5,Requirements,business-analyst,finished writing requirements,1.5,0.5,Finished requirements.
+9-13-2026,19:00,19:30,0.5,Requirements,business-analyst,started filling out the rest of the requirements doc,0.5,0,used AI to prompt interview for some sections.

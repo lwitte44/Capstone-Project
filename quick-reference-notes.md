@@ -46,3 +46,35 @@ Planning, tracking, and replanning	        18	            7.5%
 Documentation and handoff	                30	            12.5%
 Deployment and release	                    12	            5%
 Presentation and delivery	                12	            5%
+
+<!--
+### FR-IDX-06 — Rank results by relevance
+**Priority:** Won't
+**Requirement:** The system shall be able to order search results by relevance, placing an essay whose title matches the keyword above an essay whose body matches it, whenever results are returned.
+**Rationale:** As the corpus grows, a passing mention in a long body would otherwise outrank the essay actually about the subject, which the Reader would experience as the search being broken.
+**Acceptance criteria:**
+- Given essay A with the keyword in its title and essay B with it only in its body, when the visitor searches, then A is listed before B.
+- Given two essays matching equally, when results render, then they are ordered consistently between identical repeated searches.
+**Source:** Own decision — scoping memo feature 3.
+
+### FR-IDX-07 — Show matched excerpts
+**Priority:** Won't
+**Requirement:** A visitor shall be able to see, for each search result, an excerpt containing the matched keyword with that keyword visually distinguished from the surrounding text.
+**Rationale:** A list of bare titles gives the Reader no basis for choosing between results. Seeing the keyword in its context is what makes that choice possible.
+**Acceptance criteria:**
+- Given a result matching within the body, when results render, then an excerpt surrounding the match is shown with the keyword visually distinguished.
+- Given a result matching only in the title, when results render, then an excerpt from the opening of the essay is shown instead.
+**Source:** Own decision — scoping memo feature 3.
+
+### FR-IDX-08 — Keep the query in the URL
+**Priority:** Won't
+**Requirement:** A visitor shall be able to bookmark or share a set of search results, by means of the active query being reflected in the URL query string.
+**Rationale:** The Reader who finds a useful result set should be able to return to it later, and the Author wants to be able to link to a search from outside the site.
+**Acceptance criteria:**
+- Given a search for `determinism`, when results render, then the URL contains that query.
+- Given a URL containing a query, when it is opened in a new browser session, then the same results are shown without the keyword being retyped.
+- Given the browser back control is used after a search, when the previous page loads, then the prior query state is restored.
+**Source:** Own decision.
+-->
+
+fr-017-write-functional-requirements
