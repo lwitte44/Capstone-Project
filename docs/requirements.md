@@ -483,14 +483,22 @@ with one line of reasoning. A short list here means you have not thought hard en
 
 | Not building | Why not | Revisit when |
 | ------------ | ------- | ------------ |
+| AI Summarization Feature | It would cost more time than I have for my project. | I will revisit this when the project scope is larger. |
+| Downloading Feature | It is not necessary for my personaly essay, additionally, it would increase the time cost of the project | I will revisit if I decide I want people to download my essays |
+| A Login Page | The Reader does not have any functions that they need a login for, it saves scope space. | There are new features that need a login page. |
+| Advertisements | If people are wanting to read my essays, I do not want to make them deal with ads | If I had a more of a viewership. |
+| A Notification Feature | I will not add essays often enough to make the cost worth it. | If I got more viewership and had more essays. |
+| A Subscription Requirement | My essays are not professional enough to make readers pay. | If I got more viewership and had more essays. |
+|Search by Topic | I think that using just keyword will suffice for this scope | This is the most likely to add when I have more time. |
 
 ## 8. Open Questions
 
 | #   | Question | Who can answer it | Needed by |
 | --- | -------- | ----------------- | --------- |
+| 1 | How will I store the environment variables? | Dr. Kellogg's APIs class, or research| Week 7 |
 
 ## 9. Document Change Log
 
 | Date         | Version | Change                | Reason      |
 | ------------ | ------- | --------------------- | ----------- |
-| <YYYY-MM-DD> | 1.0     | Initial specification | Milestone 3 |
+| 2026-9-13 | 1.0     | Initial specification | Milestone 3 |
