@@ -44,6 +44,7 @@ memos, or the reflections is generated text.
 | Date    | Tool / model                | What I asked | What I kept | What I changed | How I verified |
 | ------- | --------------------------- | ------------ | ----------- | -------------- | -------------- |
 | 8-26-26 | I did not use AI in Week 1. | N/A          | N/A         | N/A            | N/A            |
+| 9-13-2026 | Claude Opus 5 | I asked for it to take my features and to generate requirements that followed from them. | I kept some of the divisions of the features that it created and filled them out based on the guidelines for milestone 3. | I changed the requirements to better fit my project scope, I got rid of the extra summarization feature it suggested without prompting. | I verified by checking my final changes from the created requirements with the guidelines for milestone 3 |
 
 <!--
   A BAD entry (do not imitate):

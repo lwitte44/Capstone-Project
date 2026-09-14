@@ -7,7 +7,7 @@
 
 ## 1. Problem statement
 
-For Pokemon TCG Collectors who want a way to put their collection of cards in a digital collection where they can view all in the same place. The problem is putting a whole collection in a database takes forever because searching by specific card name takes a long time to find and often returns too many options. This costs hours of searching through cards with similar names. Today they use apps with faulty searches or try spotty AI image detection, which fails because searching by name returns too many similar cards and the AI does not work very easily because of lighting.
+For Pokemon TCG Collectors who want a way to put their collection of cards in a digital collection where they can view all in the same place. The problem is putting a whole collection in a database takes forever because searching by specific card name takes a long time to find and often returns too many options. This costs about 1 hour of extra searching through cards with similar names whenever you are putting a collection in. Today they use apps with faulty searches or try spotty AI image detection, which fails because searching by name returns too many similar cards and the AI does not work very easily because of lighting.
 
 ## 2. Evidence a user exists
 
