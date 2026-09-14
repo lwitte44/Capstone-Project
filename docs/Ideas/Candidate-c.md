@@ -7,7 +7,7 @@
 
 ## 1. Problem statement
 
-For WW2 mobile game enjoyers who like to play games with realistically detailed airplanes and goodplay potential. The problem is that other games that try to complete this do not have correctly detailed WW2 airplanes and do not stay true to old-style arcade gameplay. This costs loss of interest because when you're not playing with the designs you want or the gameplay is not how you'd like it, the game is no longer interesting. Today they just keep searching for other games, or they find one that is just close enough to allow them continued play, this fails because there is never one app that has all that they want.
+For WW2 mobile game enjoyers who like to play games with realistically detailed airplanes and goodplay potential. The problem is that other games that try to complete this do not have correctly detailed WW2 airplanes and do not stay true to old-style arcade gameplay. This costs a half hour searching through multiple apps on the play store looking for the right game each time I try. Today they just keep searching for other games, or they find one that is just close enough to allow them continued play, this fails because there is never one app that has all that they want.
 
 ## 2. Evidence a user exists
 
