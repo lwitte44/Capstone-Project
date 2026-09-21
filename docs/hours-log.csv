@@ -16,3 +16,7 @@ date,start,end,hours,phase,hat,task,estimate_hours,blocked_hours,notes
 9-13-2026,15:30,18:00,2.5,Requirements,business-analyst,finished writing requirements,1.5,0.5,Finished requirements.
 9-13-2026,19:00,19:30,0.5,Requirements,business-analyst,started filling out the rest of the requirements doc,0.5,0,used AI to prompt interview for some sections.
 9-13-2026,20:30,21:30,1,Inception,project-owner,I fixed the mistakes in milestone 2,1,0.0,I documented the changes made to completed documents at the bottom of each one.
+9-14-2026,13:30,15:00,1.5,Requirements,business-analyst,read the textbook chapter,1,0,the textbook makes for slow reading to understand everything.
+9-15-2026,12:00,12:30,0.5,Requirements,business-analyst,finished reading textbook and looked at milestone 4,0.5,0,only had a little reading left.
+9-17-2026,10:00,13:00,3,Requirements,business-analyst,started working on non-functional requirements,2,0,got through most of them.
+9-20-2026,18:00,24:00,6,Requirements,business-analyst,finished non-functional requirements and the rest of milestone 4,7,0,the rest of the sections took less time than believed.
