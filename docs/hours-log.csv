@@ -20,3 +20,7 @@ date,start,end,hours,phase,hat,task,estimate_hours,blocked_hours,notes
 9-15-2026,12:00,12:30,0.5,Requirements,business-analyst,finished reading textbook and looked at milestone 4,0.5,0,only had a little reading left.
 9-17-2026,10:00,13:00,3,Requirements,business-analyst,started working on non-functional requirements,2,0,got through most of them.
 9-20-2026,18:00,24:00,6,Requirements,business-analyst,finished non-functional requirements and the rest of milestone 4,7,0,the rest of the sections took less time than believed.
+9-21-2026,13:30,14:30,1,Requirements,business-analyst,started to read textbook and milestone requirements,1,0,not much time today
+9-22-2026,10:00,12:00,2,Requirements,business-analyst,finished reading textbook and milestone requirements; and started on filling out the tech eval,2,0,spent time researching alternatives for hosting and databases.
+9-23-2026,18:00,21:00,3,Requirements,business-analyst,used AI to help draft the rest of the tech eval and the adr's,2,0,AI drafted the docs and I filled in the verification information and made the decisions.
+9-27-2026,16:00,22:00,6,Requirements,business-analyst,finished tech eval and adr's and the rest of milestone 5,5,0,there is a lot of verification still to be filled in.
