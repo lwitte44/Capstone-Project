@@ -215,20 +215,6 @@ Scale is me, a grader, and a handful of readers — A2 puts readership in the te
 | Claude Code Pro          | Charter 3 — development tooling, not infrastructure                                                                           |                                           $20 |
 | **Total**                |                                                                                                                               | **$20, all of it tooling; $0 infrastructure** |
 
-### Free-tier watch list
-
-To live at `docs/free-tier-watch.md`. Two rows carry earlier dates from the scoping decision's dependency table; both are flagged for re-reading, because a claim verified in Week 2 is not a claim verified at Milestone 5.
-
-| Service                   | What is free                      | Verified on | Where I read it                                                      | Expiry or risk                                                          | What I do if it ends                                                                                                         |
-| ------------------------- | --------------------------------- | ----------- | -------------------------------------------------------------------- | ----------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| Vercel                    | "Free deploy, 1 dev on team only" | 2026-09-27  | <https://vercel.com/pricing>                                         | Read whether a card is required, and whether overage bills or throttles | Deploy the same commit to Netlify or Render free tier (Dependency D1)                                                        |
-| Turso                     | 5 GB storage                      | 2026-09-27  | <https://turso.tech/pricing>                                         | Read row-read limits, database count, and any inactivity suspension     | Restore from the Word originals via the seed script into another libSQL host, or a local file for demonstration (NFR-REL-02) |
-| GitHub Actions            | Minutes for a public repository   | 2026-09-28  | <https://docs.github.com/en/actions>                                 | Read whether minutes are unlimited on public repositories               | Run the build and checks locally before each push; record results in `docs/measurements/`                                    |
-| GitHub repository hosting | Public repository hosting         | 2026-09-28  | <https://github.com/pricing>                                         | Low                                                                     | Repository is cloned on two machines; git is distributed by design                                                           |
-| MongoDB Atlas             | "M0 Free Tier, 512 MB of storage" | 2026-09-06  | Scoping decision dependency table; <https://www.mongodb.com/pricing> | Not adopted                                                             | n/a                                                                                                                          |
-
-Rule applied throughout: **prefer services that cannot silently bill me.** Confirming that property for each row is part of the reading pass, and a service that requires a card without a hard spend cap should be treated as a finding, not a footnote.
-
 ---
 
 ## 6. Free-tier watch list
